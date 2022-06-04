@@ -112,9 +112,6 @@ color:var(--color);
     font-size: 20px;
     color: white;
 }
-.head ul li{
-   margin-bottom: 2px;
-}
 .head i:hover +ul{
     display: flex;
 } 
@@ -126,6 +123,8 @@ background-image: url(../images/hero-bg.png);
 padding-top:60px;
 padding-bottom:60px;
 background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 position: relative;
 height: 100vh;
 }
@@ -138,7 +137,7 @@ top:57.6px;
 left:0;
 background-color: rgb(0 ,0 ,0,0.8);
 }
-.home .container{
+.home .text{
     position: absolute;
     top:50%;
     left:20%;
@@ -154,14 +153,14 @@ color:white
 color:var(--color);
 margin-top:-18px;
 }
-.home button{
-background-color: transparent;
-color:white;
-border:2px solid var(--color);
-padding:10px 30px;
-font-weight: bold;
-text-transform: uppercase;
-margin-bottom:20px;
+.home button{ 
+background-color: transparent; 
+color:white; 
+border:2px solid var(--color); 
+padding:10px 30px; 
+font-weight: bold; 
+text-transform: uppercase; 
+margin-bottom:20px; transition: .3s; -webkit-transition: .3s; -moz-transition: .3s; -ms-transition: .3s; -o-transition: .3s;
 }
 .home button:hover{
     background-color: var(--color);
@@ -327,7 +326,7 @@ line-height: 1.6;
 /* end project */ 
 /* start about */
 .about{
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 60px;
 } 
 .about .box{
@@ -412,8 +411,8 @@ background-color: transparent;
 /* end about */
 /* start contact */
 .contact{
-    padding-top:120px;
-    padding-bottom: 120px;
+    padding-top:60px;
+    padding-bottom: 60px;
 }
 .contact h2{
 color: black;
